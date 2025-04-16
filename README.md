@@ -1,0 +1,1 @@
+This Repository is meant for training a tiny LLM to generate synthetic PLM Metadata from manufacturing parts based on a sample of real world metadata.
