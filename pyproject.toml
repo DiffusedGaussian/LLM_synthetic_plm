@@ -1,0 +1,20 @@
+[project]
+name = "llm-synthetic-plm"
+version = "0.1.0"
+description = "A repository to extract metadata information out of unstructred data, such as, (messy) excel sheets, pdf files, reports, etc."
+authors = [
+    {name = "Alessandro Leone",email = "a.leone@nyris.io"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas (>=2.3.1,<3.0.0)",
+    "torch (>=2.7.1,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "tokenizers (>=0.21.2,<0.22.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

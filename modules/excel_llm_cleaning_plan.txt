@@ -1,0 +1,11 @@
+Excel file   →  pandas read_excel(header=None)
+                     ↓
+          Light heuristics (find header row, drop empty cols)  ← deterministic
+                     ↓
+          Summarise each column (name, sample values, % null)
+                     ↓
+        LLM (function-call / JSON mode) → “cleaning plan”
+                     ↓
+          Apply plan with vectorised pandas ops
+                     ↓
+            Clean DataFrame  →  save .xlsx / .csv / JSON
