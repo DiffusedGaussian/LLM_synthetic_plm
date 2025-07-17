@@ -9,9 +9,9 @@ Generate realistic **Product‑Lifecycle‑Management (PLM) metadata** from smal
 Manufacturing companies hold years of Bills‑of‑Material, PDFs, CAD drawings, and ERP exports—but these files are scattered, inconsistent, and rarely machine‑readable.  Fine‑tuned language models can hallucinate when trained on tiny, noisy samples.  **LLM Synthetic PLM** tackles both problems by
 
 1. **Ingesting unstructured sources** (Excel, CSV, PDFs, legacy PLM dumps)
-2. **Normalising & validating** them into a compact training schema
-3. **Training or fine‑tuning** a miniature GPT‑style model (< 100 MB)
-4. **Generating high‑fidelity synthetic rows** to bootstrap downstream analytics or large‑scale LLM pre‑training
+2. **Profiling**  with GPT‑4o api calls to draft a JSON cleaning plan based on column stats
+3. **Applying deterministic** pandas transforms (rename, cast, impute, validate) driven by that plan
+4. **Exporting** clean, audit‑ready JSONL for analytics, reporting, or downstream model work
 
 ---
 
