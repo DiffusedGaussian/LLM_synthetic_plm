@@ -1,6 +1,6 @@
 # LLM Synthetic PLM
 
-Generate realistic **Product‑Lifecycle‑Management (PLM) metadata** from small, messy manufacturing datasets using a lightweight local language‑model.
+Input, clean and structure **Product‑Lifecycle‑Management (PLM) metadata** from small, messy manufacturing datasets using large language‑model.
 
 ---
 
