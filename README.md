@@ -27,17 +27,17 @@ LLM_synthetic_plm/
 ├── modules/
 │   ├── data_loader.py   # Parsers & validators for tabular + PDF + PLM exports
 │   ├── tokenizer.py     # Builds or loads a domain tokenizer (optional)
-│   ├── model.py         # NanoGPT‑style TinyGPT architecture
-│   └── trainer.py       # Training / fine‑tuning loop with Lightning
+│   ├── model.py         # NanoGPT‑style TinyGPT architecture (To be implemented)
+│   └── trainer.py       # Training / fine‑tuning loop with Lightning (To be implemented)
 │
 ├── scripts/
 │   ├── prepare_data.py  # CLI: Excel/PDF → JSONL
-│   ├── train.py         # CLI: train or fine‑tune TinyGPT
-│   └── generate.py      # CLI: emit synthetic metadata → JSON
+│   ├── train.py         # CLI: train or fine‑tune TinyGPT (To be implemented)
+│   └── generate.py      # CLI: emit synthetic metadata → JSON (To be implemented)
 │
 ├── notebooks/           # Rapid experiments & EDA
 ├── tests/               # pytest based unit tests
-├── models/              # Saved checkpoints (HF or safetensors)
+├── models/              # Saved checkpoints (HF or safetensors) (To be implemented)
 ├── outputs/             # Generated samples & evaluation reports
 ├── config.yaml          # Centralised paths + hyper‑parameters
 └── requirements.txt
